@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Проверка возраста</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background: url('3D8EF9E4-31C3-4E7D-9164-9B8FD46B4707.jpeg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 10px;
+      text-align: center;
+      color: white;
+    }
+    .question {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    .btn {
+      padding: 12px 25px;
+      margin: 10px;
+      font-size: 18px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .yes {
+      background-color: #28a745;
+      color: white;
+    }
+    .no {
+      background-color: #dc3545;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <div class="question">Тебе есть 21 год?</div>
+    <button class="btn yes" onclick="window.location.href='https://1redlink.com/h5de4b779'">Да</button>
+    <button class="btn no" onclick="alert('Доступ запрещён')">Нет</button>
+  </div>
+</body>
+</html>
